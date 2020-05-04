@@ -3,7 +3,7 @@ platform: "pytorch_libtorch"
 max_batch_size: 0
 input {
     name: "input__0"
-    data_type: TYPE_INT32
+    data_type: TYPE_INT64
     dims: [ 1,5 ]
   }
 output {
